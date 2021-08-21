@@ -1,0 +1,468 @@
+/*===================================== FONT ==================================*/
+
+@font-face {
+	src: url(../font/GilroyRegular.ttf);
+	font-family: "GilroyRegular";
+}
+
+@font-face {
+	src: url(../font/GilroyBlack.ttf);
+	font-family: "GilroyBlack";
+}
+
+@font-face {
+	src: url(../font/GilroyBold.ttf);
+	font-family: "GilroyBold";
+}
+
+@font-face {
+	src: url(../font/GilroyExtrabold.ttf);
+	font-family: "GilroyExtrabold";
+}
+
+@font-face {
+	src: url(../font/GilroyMedium.ttf);
+	font-family: "GilroyMedium";
+}
+
+@font-face {
+	src: url(../font/TavolgaFree.ttf);
+	font-family: "TavolgaFree";
+}
+
+/*================================== PRE-PROJECT =====================================*/
+
+body {
+	margin: 0;
+}
+
+/*================================== HEADER =====================================*/
+
+.header {
+	background-color: #eba8b1;
+}
+
+.header_container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-top: 38px;
+	padding-bottom: 30px;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 18px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #ffffff;
+}
+
+.header_container .logo {
+	margin-right: 245px;
+}
+
+#roon {
+	display: none;
+}
+
+#menu {
+	display: inline-block;
+}
+
+#menu a.menu_item {
+	font-size: 14px;
+	font-family: "GilroyMedium", sans-serif;
+	color: #770b1d;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	margin-right: 40px;
+}
+
+#menu a.menu_item:last-child {
+	margin-right: 0;
+}
+
+#menu a.menu_item:hover {
+	border-bottom: 2px solid #770b1d;
+}
+
+#menu svg {
+	display: none;
+}
+
+.phone_number {
+	display: inline-block;
+	font-size: 16px;
+	font-family: "GilroyBold", sans-serif;
+	color: #ffffff;
+}
+
+.header_container .phone_number {
+	margin-left: 318px;
+}
+
+/*================================== MAIN =====================================*/
+
+.main {
+	background-color: #eba8b1;
+}
+
+.main_container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.main_info {
+	padding-top: 144px;
+	max-width: 585px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main_info h1 {
+	margin: 0;
+	font-size: 55px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #ffffff;
+}
+
+.main_info p {
+	max-width: 360px;
+	font-size: 18px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #ffffff;
+	margin-top: 72px;
+	line-height: 25px;
+}
+
+.main_action {
+	margin-top: 90px;
+	margin-bottom: 145px;
+}
+
+.btn {
+	background-image: -webkit-linear-gradient(90deg, #71081e 0%, #d7485c 100%);
+	border-radius: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "GilroyBold", sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main_action .btn {
+	padding: 20px 43px;
+	height: 60px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.main_image {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main_image img {
+	max-width: 529px;
+}
+
+/*================================== INFO =====================================*/
+
+#info {
+	background-color: #ffefef;
+}
+
+.info_container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+
+.info_message {
+	margin-right: 140px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.info_message_title {
+	font-size: 45px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #331907;
+	max-width: 473px;
+	line-height: 55px;
+}
+
+.info_message_text {
+	font-size: 18px;
+	font-family: "GilroyRegular", sans-serif;
+	color: #331907;
+	max-width: 415px;
+	padding-top: 60px;
+	line-height: 28px;
+}
+
+.info_image {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.info_image img {
+	max-width: 520px;
+}
+
+/*================================== ADVANTAGES =====================================*/
+
+.advantages {
+	margin-top: 117px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantage:last-child {
+	margin-right: 0;
+}
+
+.advantage_number {
+	font-size: 60px;
+	font-family: "GilroyExtrabold", sans-serif;
+	color: #ffffff;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background-color: #821328;
+	text-align: center;
+	line-height: 1.6;
+}
+
+.advantage_text {
+	max-width: 222px;
+}
+
+.advantage_title {
+	font-size: 20px;
+	font-family: "GilroyExtrabold", sans-serif;
+	color: #331907;
+	margin-bottom: 20px;
+}
+
+.advantage_description {
+	font-size: 15px;
+	font-family: "GilroyMedium", sans-serif;
+	color: #331907;
+}
+
+/*================================== PRODUCT =====================================*/
+
+#products {
+	background-color: #eba8b1;
+}
+
+.products_container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.products_title {
+	font-size: 45px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 129px;
+}
+
+.products_items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.product {
+	border-width: 2px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-radius: 20px;
+	padding-bottom: 25px;
+	padding-top: 105px;
+	position: relative;
+	width: 263px;
+	box-sizing: border-box;
+}
+
+.product:last-child {
+	margin-right: 0;
+}
+
+.product img {
+	position: absolute;
+	top: -60px;
+	left: 35px;
+	max-width: 190px;
+}
+
+.product_title {
+	font-size: 18px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.product_order {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.product_info {
+	max-width: 80px;
+	font-size: 15px;
+	font-family: "GilroyRegular", sans-serif;
+	color: #ffffff;
+	line-height: 2;
+}
+
+.product_button {
+	height: 50px;
+	padding: 0 29px;
+	box-sizing: border-box;
+	outline: 0;
+	border: 0;
+}
+
+/*================================== ORDER =====================================*/
+
+#order {
+	background-color: #ffefef;
+}
+
+.order_container {
+	max-width: 1140px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 100px;
+}
+
+.left_strawberry {
+	position: absolute;
+	top: 75px;
+	left: -40px;
+}
+
+.right_strawberry {
+	position: absolute;
+	bottom: 195px;
+	right: 145px;
+}
+
+.order_image {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 160px;
+	max-width: 408px;
+}
+
+.order_block {
+	display: inline-block;
+	vertical-align: bottom;
+	max-width: 420px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.order_text_title {
+	font-size: 45px;
+	font-family: "TavolgaFree", sans-serif;
+	color: #331907;
+	margin-bottom: 44px;
+}
+
+.order_text_message {
+	font-size: 18px;
+	font-family: "GilroyRegular", sans-serif;
+	color: #331907;
+	margin-bottom: 15px;
+	line-height: 28px;
+}
+
+.order_form p {
+	font-size: 18px;
+	font-family: "GilroyBold", sans-serif;
+	color: #120a06;
+	margin-top: 45px;
+}
+
+.order_form input {
+	border-width: 1px;
+	border-color: #821328;
+	border-style: solid;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	padding: 0 25px;
+	max-width: 247px;
+	width: 100%;
+	height: 60px;
+	background: transparent;
+	outline: 0;
+}
+
+.order_form input:first-child {
+	margin-bottom: 0;
+}
+
+::placeholder {
+	font-size: 15px;
+	font-family: "GilroyBold", sans-serif;
+	color: #760c22;
+}
+
+.order_form .btn {
+	box-sizing: border-box;
+	border: 0;
+	max-width: 300px;
+	width: 100%;
+	height: 60px;
+	padding: 0 25px;
+}
+
+/*================================== FOOTER =====================================*/
+
+.footer {
+	background-color: #c0707c;
+}
+
+.footer_container {
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 73px 0 65px 0;
+}
+
+.copyright {
+	font-size: 12px;
+	font-family: "GilroyRegular", sans-serif;
+	color: #e3acb4;
+	margin-top: 18px;
+}
+
+.instagram {
+	text-align: center;
+	font-size: 16px;
+	font-family: "GilroyBold", sans-serif;
+	color: #ffffff;
+	line-height: 1.9;
+}
+
+.instagram p {
+	margin: 0;
+}
+
+.instagram svg {
+	fill: white;
+	width: 35px;
+}
